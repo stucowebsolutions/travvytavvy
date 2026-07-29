@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
-  await loadPartial("/partials/header.html", "#site-header");
-  await loadPartial("/partials/footer.html", "#site-footer");
+  await loadPartial("./partials/header.html", "#site-header");
+  await loadPartial("./partials/footer.html", "#site-footer");
 
   setCurrentYear();
   setupMobileNav();
