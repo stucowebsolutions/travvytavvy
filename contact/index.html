@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | The Travvy Tavvy</title>
+  <meta name="description" content="Request a quote or consultation from The Travvy Tavvy.">
+  <base href="/travvytavvy/">
+  <link rel="stylesheet" href="./css/globals.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/contact.css">
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+  <div id="site-header"></div>
 
+  <main class="contact-page">
+    <section class="page-hero contact-hero">
+      <div class="container page-hero-grid">
+        <div class="hero-copy">
+          <span class="kicker">Contact</span>
+          <h1>Start your quote request here.</h1>
+          <p>
+            Tell us about the event and we will follow up with the next steps for consultation, quote preparation, and booking.
+          </p>
+          <div class="btn-row">
+            <a class="btn btn-primary" href="tel:+14786624524">(478) 662-4524</a>
+            <a class="btn btn-secondary" href="mailto:thetravvytavvy@gmail.com">Email Us</a>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="hero-panel-image" style="--hero-image:url('/assets/images/contact-hero.jpg')">
+            <div>
+              <h2>Fast, clear follow-up.</h2>
+              <p>The inquiry process is built to collect enough detail for a meaningful response without overcomplicating the client experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="panel">
+          <div class="hero-panel-content">
+            <h2>Request a quote</h2>
+            <form class="form-shell" id="quote-form">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" required>
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" required>
+                </div>
+                <div class="field">
+                  <label for="phone">Phone</label>
+                  <input id="phone" name="phone" type="tel" required>
+                </div>
+                <div class="field">
+                  <label for="event-date">Event Date</label>
+                  <input id="event-date" name="eventDate" type="date" required>
+                </div>
+                <div class="field">
+                  <label for="event-type">Event Type</label>
+                  <select id="event-type" name="eventType" required>
+                    <option value="">Select one</option>
+                    <option>Wedding</option>
+                    <option>Private Party</option>
+                    <option>Corporate Event</option>
+                    <option>Birthday Party</option>
+                    <option>Festival</option>
+                    <option>Fundraiser</option>
+                    <option>Holiday Event</option>
+                    <option>Community Event</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="guests">Guest Count</label>
+                  <input id="guests" name="guestCount" type="number" min="1" required>
+                </div>
+                <div class="field">
+                  <label for="venue">Venue Location</label>
+                  <input id="venue" name="venue" type="text" required>
+                </div>
+                <div class="field">
+                  <label for="duration">Service Duration</label>
+                  <input id="duration" name="serviceDuration" type="text" placeholder="Example: 4 hours">
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="details">Tell us about the beverage service you need</label>
+                <textarea id="details" name="details" placeholder="Beer & wine, mocktails, signature cocktails, champagne toast, etc."></textarea>
+              </div>
+
+              <p class="note">
+                This form can later be connected to Google Apps Script, email, Sheets, or a CRM.
+              </p>
+
+              <div class="btn-row">
+                <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="hero-panel-content">
+            <h2>Business details</h2>
+            <ul class="soft-list">
+              <li><strong>Email:</strong> thetravvytavvy@gmail.com</li>
+              <li><strong>Phone:</strong> (478) 662-4524</li>
+              <li><strong>Service Area:</strong> Middle Georgia and surrounding cities</li>
+              <li><strong>Instagram:</strong> @thetravvytavvy</li>
+              <li><strong>Facebook:</strong> The Travvy Tavvy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>
