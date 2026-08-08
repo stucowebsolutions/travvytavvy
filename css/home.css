@@ -8,7 +8,7 @@
   overflow:hidden;
   background:
     linear-gradient(180deg, rgba(13,13,13,.38), rgba(13,13,13,.55)),
-    url("./assets/images/home-hero.jpg") center/cover no-repeat;
+    url("../assets/images/home-hero.jpg") center/cover no-repeat;
   color:#fff;
 }
 
