@@ -1,13 +1,13 @@
 :root{
-  --bg: #f2f0eb;
+  --bg: #1e1e1f;
   --surface: #ffffff;
   --surface-alt: #ece7df;
   --text: #1a1a1a;
   --muted: #5f5a53;
   --steel: #717171;
-  --gold: #a9812f;
-  --wine: #5d1020;
-  --green: #23412d;
+  --gold: #f7b538;
+  --wine: #57160f;
+  --green: #19321b;
   --ink: #111111;
   --border: rgba(26,26,26,.12);
   --border-strong: rgba(26,26,26,.18);
@@ -75,13 +75,12 @@ p{margin-top:0}
   min-width:0;
 }
 .brand-mark{
-  width:50px;
-  height:50px;
+  width:70px;
+  height:70px;
   display:grid;
   place-items:center;
   border-radius:16px;
   background:
-    linear-gradient(135deg, rgba(93,16,32,.98), rgba(26,26,26,.92)),
     url("../assets/logos/logo.jpg") center/cover no-repeat;
   color:#fff;
   font-weight:800;
