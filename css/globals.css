@@ -81,7 +81,8 @@ p{margin-top:0}
   place-items:center;
   border-radius:16px;
   background:
-    linear-gradient(135deg, rgba(93,16,32,.98), rgba(26,26,26,.92));
+    linear-gradient(135deg, rgba(93,16,32,.98), rgba(26,26,26,.92)),
+    url("../assets/logos/logo.jpg") center/cover no-repeat;
   color:#fff;
   font-weight:800;
   letter-spacing:.08em;
