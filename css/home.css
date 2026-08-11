@@ -100,7 +100,7 @@
 }
 .info-card p{
   margin:0;
-  color:var(--text);
+  color:var(--text-dark);
 }
 .card-accent{
   position:absolute;
@@ -189,12 +189,12 @@
 }
 .booking-step h3{
   margin:0 0 8px;
-  color:var(--text);
+  color:var(--text-dark);
   font-family:Georgia, "Times New Roman", serif;
 }
 .booking-step p{
   margin:0;
-  color:var(--text);
+  color:var(--text-dark);
 }
 /* =========================================================
    FEATURE STRIP
@@ -216,10 +216,10 @@
   color:var(--text);
 }
 .feature-strip .card h2{
-  color:var(--text);
+  color:var(--text-dark);
 }
 .feature-strip .card p{
-  color:var(--text);
+  color:var(--text-dark);
 }
 /* =========================================================
    HOMEPAGE MOTION
@@ -238,19 +238,19 @@
 }
 /* Sequential card delays */
 .reveal-stagger > .reveal:nth-child(1){
-  --reveal-delay:.05s;
-}
-.reveal-stagger > .reveal:nth-child(2){
   --reveal-delay:.15s;
 }
+.reveal-stagger > .reveal:nth-child(2){
+  --reveal-delay:.3s;
+}
 .reveal-stagger > .reveal:nth-child(3){
-  --reveal-delay:.25s;
+  --reveal-delay:.45s;
 }
 .reveal-stagger > .reveal:nth-child(4){
-  --reveal-delay:.35s;
+  --reveal-delay:.5s;
 }
 .reveal-stagger > .reveal:nth-child(5){
-  --reveal-delay:.45s;
+  --reveal-delay:.65s;
 }
 /* =========================================================
    RESPONSIVE
