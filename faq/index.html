@@ -4,92 +4,428 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQ | The Travvy Tavvy</title>
-  <meta name="description" content="Frequently asked questions about The Travvy Tavvy's dry-hire bartending and event services.">
+  <meta name="description" content="Frequently asked questions about The Travvy Tavvy's dry-hire bartending, beverage services, event planning, travel, and booking process.">
   <base href="/travvytavvy/">
   <link rel="stylesheet" href="./css/globals.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/faq.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Mea+Culpa&display=swap" rel="stylesheet">
   <script defer src="./js/main.js"></script>
 </head>
 <body>
   <div id="site-header"></div>
-
   <main class="faq-page">
-    <section class="page-hero faq-hero">
-      <div class="container page-hero-grid">
-        <div class="hero-copy">
-          <span class="kicker">FAQ</span>
-          <h1>Clear answers to the questions clients ask most often.</h1>
+    <!-- =====================================================
+         FAQ HERO
+         ===================================================== -->
+    <section class="faq-hero">
+      <div class="container faq-hero-grid">
+        <div class="faq-hero-copy reveal">
+          <span class="kicker">Frequently Asked Questions</span>
+          <h1>Clear answers.
+            <span>Confident planning.</span>
+          </h1>
           <p>
-            This page is designed to explain dry-hire service, alcohol purchasing, pricing structure, and what clients should expect before they request a quote.
+            From dry-hire bartending and alcohol purchasing to travel,
+            custom menus, and event logistics, here are answers to the
+            questions we hear most often.
           </p>
           <div class="btn-row">
             <a class="btn btn-primary" href="/contact/index.html">Ask a Question</a>
             <a class="btn btn-secondary" href="/packages/index.html">View Pricing</a>
           </div>
         </div>
-
-        <div class="hero-panel">
-          <div class="hero-panel-image" style="--hero-image:url('/assets/images/faq-hero.jpg')">
-            <div>
-              <h2>Remove friction early.</h2>
-              <p>Good FAQs reduce back-and-forth and help qualified leads feel confident moving forward.</p>
+        <div class="faq-hero-panel image-reveal reveal-right">
+          <div class="faq-hero-image" style="--faq-hero-image:url('/assets/images/faq-hero.jpg')" ></div>
+          <div class="faq-hero-caption">
+            <span>Plan with confidence</span>
+            <span>01 / FAQ</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====================================================
+         SERVICE BASICS
+         ===================================================== -->
+    <section class="section faq-section">
+      <div class="container">
+        <div class="faq-section-heading reveal">
+          <div class="faq-section-number">01</div>
+          <div>
+            <span class="kicker">Service Basics</span>
+            <h2>
+              Understanding the experience.
+            </h2>
+            <p>
+              A few of the most common questions about what The Traveling
+              Tavern provides and what clients can expect from our service.
+            </p>
+          </div>
+        </div>
+        <div class="faq-list reveal-stagger">
+          <details class="faq-item" open>
+            <summary>
+              <span class="faq-question">
+                What is dry-hire bartending?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                Dry-hire means The Traveling Tavern provides professional
+                bartending services, custom menu design, bar setup, and
+                service essentials while the client purchases and provides
+                the alcohol. We handle everything else behind the bar.
+              </p>
             </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                Do you provide alcohol?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                No. The Traveling Tavern operates as a dry-hire bartending
+                service, so clients are responsible for purchasing and
+                providing the alcoholic beverages served at their event.
+              </p>
+              <p>
+                We can provide shopping guidance to help you plan the
+                beverage selection for your event.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                Do you offer non-alcoholic options?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                Absolutely. We specialize in elevated mocktails crafted
+                with the same care and creativity as our cocktail menus.
+                Full non-alcoholic packages are available for any event.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                Do you provide the bar setup?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                Yes. Our service includes a professionally styled bar setup
+                tailored to your event aesthetic. We bring the barware,
+                tools, garnishes, mixers, and non-alcoholic ingredients
+                needed for service.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                Can I customize my beverage menu?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                Yes. Every menu is custom-designed around your event, taste,
+                theme, season, and vision. Custom cocktails, mocktails,
+                drink names, seasonal ingredients, and personalized menu
+                design can all be incorporated into the experience.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- =====================================================
+         BOOKING & EVENT PLANNING
+         ===================================================== -->
+    <section class="section faq-section faq-section-dark">
+      <div class="container">
+        <div class="faq-section-heading reveal">
+          <div class="faq-section-number">02</div>
+          <div>
+            <span class="kicker">Booking & Planning</span>
+            <h2>
+              Getting from inquiry to event day.
+            </h2>
+            <p>
+              A little preparation goes a long way. These questions cover
+              booking, guest counts, menus, and the information needed to
+              start planning.
+            </p>
+          </div>
+        </div>
+        <div class="faq-list reveal-stagger">
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                How far in advance should I book?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                We recommend booking as early as possible, particularly
+                during peak wedding season from April through October.
+              </p>
+              <p>
+                Your date is not considered reserved until a signed
+                agreement and retainer have been received.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                What information do you need to provide a quote?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                We typically need your venue location, contact information,
+                event date, estimated guest count, event type, and a general
+                idea of the beverage service you're looking for.
+              </p>
+              <p>
+                Additional details can be worked through during the planning
+                process.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                How many guests can you serve?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                We serve events ranging from intimate gatherings of around
+                20 guests to large celebrations of 300 or more. Staffing
+                can be scaled according to guest count to support seamless
+                service throughout the event.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                What happens after I submit an inquiry?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                We'll use the information you provide to understand your
+                event, beverage needs, and logistics. Questions and specific
+                event details can be addressed during the planning process
+                before finalizing service.
+              </p>
+              <p>
+                Your event date is reserved once the required agreement and
+                retainer have been received.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                Can I request a consultation through the website?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                Yes. You can use the contact page to submit an inquiry and
+                begin discussing your event, beverage service, and planning
+                needs.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- =====================================================
+         TRAVEL & EVENT LOGISTICS
+         ===================================================== -->
+    <section class="section faq-section">
+      <div class="container">
+        <div class="faq-section-heading reveal">
+          <div class="faq-section-number">03</div>
+          <div>
+            <span class="kicker">Travel & Logistics</span>
+            <h2>
+              The details behind the scenes.
+            </h2>
+            <p>
+              Knowing the practical requirements ahead of time helps keep
+              event day running smoothly.
+            </p>
+          </div>
+        </div>
+        <div class="faq-list reveal-stagger">
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                What is your service area?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                The Traveling Tavern proudly serves Central Georgia and
+                the metropolitan Atlanta area.
+              </p>
+              <p>
+                Events within 30 miles of Macon, Georgia are included in
+                standard service pricing. Events beyond that area may be
+                subject to a travel fee based on distance, travel time,
+                lodging requirements, and event logistics.
+              </p>
+              <p>
+                Destination events may be considered on a case-by-case
+                basis.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                What does an outdoor event need for the bar setup?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                Outdoor events require adequate shelter and a safe,
+                level service area. Access to electricity is also required
+                for outdoor bar setups.
+              </p>
+              <p>
+                We recommend having a weather contingency plan in place for
+                severe conditions and will work with you on event logistics
+                during the planning process.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                What are the client's responsibilities for the venue?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                Clients are responsible for ensuring that the venue permits
+                the planned beverage service and for obtaining any permits,
+                permissions, approvals, insurance requirements, or other
+                documentation required by the venue or applicable
+                jurisdiction.
+              </p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">
+                Do you need access to the venue before the event?
+              </span>
+              <span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <div class="faq-content">
+              <p>
+                Reasonable access for setup, service, and breakdown is
+                required. Setup times and specific access requirements will
+                be confirmed during the planning process.
+              </p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- =====================================================
+         RESPONSIBLE SERVICE
+         ===================================================== -->
+    <section class="section faq-safety">
+      <div class="container">
+        <div class="faq-safety-inner reveal">
+          <div class="faq-safety-icon">
+            ✓
+          </div>
+          <div>
+            <span class="kicker">Responsible Service</span>
+            <h2>
+              Guest safety comes first.
+            </h2>
+            <p>
+              The Traveling Tavern reserves the right to refuse alcohol
+              service to any guest who appears visibly intoxicated,
+              underage, or otherwise unable to consume alcohol responsibly.
+            </p>
+            <p>
+              The safety and well-being of your guests is always a priority.
+            </p>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="section">
-      <div class="container faq-list">
-        <details class="card faq-item" open>
-          <summary>What does dry-hire mean?</summary>
-          <div class="faq-content">
-            Dry-hire means The Travvy Tavvy provides the bartending service, beverage expertise, and event execution, while the client provides the alcohol.
+    <!-- =====================================================
+         PRICING
+         ===================================================== -->
+    <section class="section faq-pricing">
+      <div class="container">
+        <div class="faq-pricing-inner reveal">
+          <div>
+            <span class="kicker">Pricing</span>
+            <h2>Have a specific event in mind?</h2>
+            <p>
+              Starting prices can be viewed on the packages page, while
+              final pricing is customized around the details of your event.
+            </p>
           </div>
-        </details>
-
-        <details class="card faq-item">
-          <summary>Do you provide alcohol?</summary>
-          <div class="faq-content">
-            No. The Travvy Tavvy does not provide alcohol for any event.
+          <div class="btn-row">
+            <a class="btn btn-accent" href="/packages/index.html">View Packages</a>
+            <a class="btn btn-secondary" href="/contact/index.html">Request a Quote</a>
           </div>
-        </details>
-
-        <details class="card faq-item">
-          <summary>What do you need for a quote?</summary>
-          <div class="faq-content">
-            Venue location, contact information, event date, guest count, event type, and a general idea of the beverage service needed.
-          </div>
-        </details>
-
-        <details class="card faq-item">
-          <summary>Can I request a consultation through the website?</summary>
-          <div class="faq-content">
-            Yes. The site will include a consultation request and inquiry form so clients can begin the booking process online.
-          </div>
-        </details>
-
-        <details class="card faq-item">
-          <summary>Do you have starting prices?</summary>
-          <div class="faq-content">
-            Yes, starting prices can be shown on the packages page, with final pricing customized based on the event details.
-          </div>
-        </details>
+        </div>
       </div>
     </section>
-
-    <section class="section">
-      <div class="container cta-panel">
-        <div>
-          <h2>Still have questions?</h2>
-          <p>Send them through the contact form and we can respond directly with the details needed for your event.</p>
+    <!-- =====================================================
+         FINAL CTA
+         ===================================================== -->
+    <section class="section faq-closing">
+      <div class="container">
+        <div class="faq-closing-inner reveal">
+          <span class="kicker">Still Have Questions?</span>
+          <h2>
+            Let's talk about your event.
+          </h2>
+          <p>
+            If your question isn't answered here, send us a message.
+            We're happy to discuss your event, beverage vision, and
+            planning needs.
+          </p>
+          <a class="btn btn-primary" href="/contact/index.html">
+            Contact The Traveling Tavern
+          </a>
         </div>
-        <a class="btn btn-accent" href="/contact/index.html">Contact Us</a>
       </div>
     </section>
   </main>
-
   <div id="site-footer"></div>
 </body>
 </html>
