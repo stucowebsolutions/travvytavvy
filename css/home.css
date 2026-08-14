@@ -168,12 +168,12 @@
   letter-spacing:.01em;
 }
 .founder-signature{
-  margin-top:12px;
+  margin-top:18px;
   margin-bottom:0;
   color:var(--wine) !important;
   font-family:"Mea Culpa", cursive;
-  font-size:2.15rem;
-  line-height:1.05;
+  font-size:3.5rem;
+  line-height:1;
   font-weight:400;
 }
 .founder-signature span{
