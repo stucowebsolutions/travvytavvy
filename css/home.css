@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+.section > .container > h2{
+  text-align:center;
+}
+
+.section > .container > .section-lead{
+  max-width:760px;
+  margin:0 auto 34px;
+  text-align:center;
+}
 /* =========================================================
    HOMEPAGE HERO
    ========================================================= */
@@ -101,6 +109,8 @@
 .info-card p{
   margin:0;
   color:var(--text-dark);
+  font-size:1.02rem;
+  line-height:1.75;
 }
 .card-accent{
   position:absolute;
@@ -121,6 +131,21 @@
 .founders-copy{
   align-self:center;
 }
+.founders-copy h2{
+  margin-bottom:22px;
+}
+.founders-copy > p{
+  max-width:62ch;
+  font-size:1.12rem;
+  line-height:1.95;
+  color:rgba(233,229,220,.88);
+}
+.founders-copy > p:first-of-type{
+  font-size:1.2rem;
+  line-height:2;
+  color:#fff;
+  font-weight:500;
+}
 .founder-quote-card{
   background: linear-gradient( 180deg, rgba(230,230,227,.98), rgba(208,208,205,.96) );
   border:1px solid rgba(255,255,255,.10);
@@ -133,6 +158,14 @@
 }
 .founder-quote-card p{
   color:var(--text-dark);
+}
+.founder-quote-card > p:first-child{
+  font-family:var(--font-display);
+  font-size:1.45rem;
+  line-height:1.7;
+  color:var(--wine);
+  font-weight:600;
+  letter-spacing:.01em;
 }
 .founder-signature{
   margin-top:12px;
@@ -188,13 +221,15 @@
   font-family:Inter, Arial, Helvetica, sans-serif;
 }
 .booking-step h3{
-  margin:0 0 8px;
-  color:var(--text-dark);
-  font-family:Georgia, "Times New Roman", serif;
+  margin:0 0 10px;
+  color:var(--wine);
+  font-family:var(--font-display);
+  font-weight:600;
 }
 .booking-step p{
   margin:0;
   color:var(--text-dark);
+  line-height:1.8;
 }
 /* =========================================================
    FEATURE STRIP
@@ -272,6 +307,9 @@
   }
   .card-grid{
     grid-template-columns:1fr 1fr;
+  }
+  .founder-quote-card > p:first-child{
+  font-size:1.25rem;
   }
 }
 @media (max-width:640px){
