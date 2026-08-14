@@ -3,104 +3,848 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Services | The Travvy Tavvy</title>
-  <meta name="description" content="Explore The Travvy Tavvy's dry-hire bartending, signature cocktails, mocktail service, beverage stations, and event add-ons.">
+
+  <meta
+    name="description"
+    content="Explore The Travvy Tavvy's custom dry-hire bartending, cocktail and mocktail experiences, wedding beverage service, corporate events, and private celebrations."
+  >
+
   <base href="/travvytavvy/">
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&family=Mea+Culpa&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="./css/globals.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/services.css">
+
   <script defer src="./js/main.js"></script>
+  <script defer src="./js/services.js"></script>
 </head>
+
 <body>
+
   <div id="site-header"></div>
 
   <main class="services-page">
-    <section class="page-hero services-hero">
-      <div class="container page-hero-grid">
-        <div class="hero-copy">
-          <span class="kicker">Services</span>
-          <h1>Flexible beverage service built around your event.</h1>
-          <p>
-            From dry-hire bartending support to crafted cocktail menus and champagne service, The Travvy Tavvy offers polished beverage experiences tailored to your celebration.
-          </p>
-          <div class="btn-row">
-            <a class="btn btn-primary" href="/contact/index.html">Request a Quote</a>
-            <a class="btn btn-secondary" href="/packages/index.html">View Packages</a>
-          </div>
-        </div>
 
-        <div class="hero-panel">
-          <div class="hero-panel-image" style="--hero-image:url('/assets/images/services-hero.jpg')">
-            <div>
-              <h2>Designed for custom events.</h2>
-              <p>Everything is flexible because no two celebrations need the same beverage setup.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
+    <!-- =====================================================
+         INTRO
+         ===================================================== -->
+    <section class="services-intro">
       <div class="container">
-        <div class="grid-3">
-          <article class="card">
-            <h3>Dry-hire bartending</h3>
-            <p>The client provides the alcohol while we handle the service, structure, and execution around the beverage experience.</p>
-          </article>
-          <article class="card">
-            <h3>Signature cocktails</h3>
-            <p>Custom drinks built to match the event vibe, menu direction, and guest preferences.</p>
-          </article>
-          <article class="card">
-            <h3>Mocktail service</h3>
-            <p>Alcohol-free beverage options that still feel premium and intentional.</p>
-          </article>
-        </div>
-      </div>
-    </section>
 
-    <section class="section">
-      <div class="container split">
-        <div class="panel">
-          <div class="hero-panel-content">
-            <h2>Available service types</h2>
-            <ul class="soft-list">
-              <li>Mobile bar service</li>
-              <li>Bartending service only</li>
-              <li>Full beverage catering support</li>
-              <li>Champagne toast service</li>
-              <li>Crafted cocktail menus</li>
-              <li>Additional bartender coverage</li>
-            </ul>
+        <div class="services-intro-grid">
+
+          <div class="services-intro-copy reveal-left">
+
+            <span class="kicker">Services</span>
+
+            <h1>
+              Beverage experiences,
+              <em>crafted around yours.</em>
+            </h1>
+
+            <p class="services-intro-lead">
+              Every event is different. Your guest count, setting, season,
+              aesthetic, and vision all shape the experience we create.
+            </p>
+
+            <p>
+              The Traveling Tavern combines professional bartending,
+              thoughtful beverage design, and genuine hospitality to create
+              service that feels seamless from the first pour to the final
+              toast.
+            </p>
+
+            <div class="btn-row">
+              <a class="btn btn-primary" href="./contact/index.html">
+                Request a Quote
+              </a>
+
+              <a class="btn btn-secondary" href="./faq/index.html">
+                Explore FAQs
+              </a>
+            </div>
+
           </div>
-        </div>
 
-        <div class="panel">
-          <div class="hero-panel-content">
-            <h2>Add-ons and upgrades</h2>
-            <ul class="soft-list">
-              <li>Additional service hour</li>
-              <li>Additional bartender</li>
-              <li>Mocktail bar</li>
-              <li>Champagne toast</li>
-              <li>Crafted cocktail menu upgrade</li>
-            </ul>
+          <div class="services-intro-visual reveal-right">
+
+            <div class="services-visual-frame">
+
+              <div
+                class="services-visual-image"
+                style="--service-image:url('./assets/images/services-hero.jpg')"
+              ></div>
+
+              <div class="services-visual-caption">
+                <span>Crafted with intention</span>
+                <strong>Every pour has a purpose.</strong>
+              </div>
+
+            </div>
+
           </div>
+
         </div>
+
       </div>
     </section>
 
-    <section class="section">
-      <div class="container cta-panel">
-        <div>
-          <h2>Need help deciding what fits?</h2>
-          <p>Send the event details and we will recommend the service structure that makes the most sense.</p>
+
+    <!-- =====================================================
+         PACKAGE ROUTE
+         ===================================================== -->
+    <section class="section services-packages">
+
+      <div class="container">
+
+        <div class="section-heading services-section-heading reveal">
+
+          <span class="kicker">Choose Your Route</span>
+
+          <h2 class="section-title-accent">
+            A service experience scaled to your celebration.
+          </h2>
+
+          <p>
+            Our packages provide a starting point for planning. Every
+            experience can be refined around your event, guest count, and
+            beverage vision.
+          </p>
+
         </div>
-        <a class="btn btn-accent" href="/contact/index.html">Ask About Service</a>
+
+
+        <div class="package-route reveal-stagger">
+
+          <div class="package-route-line" aria-hidden="true"></div>
+
+
+          <!-- WAYPOINT -->
+          <article class="package-card package-waypoint">
+
+            <div class="package-marker">
+              <span>01</span>
+            </div>
+
+            <div class="package-card-inner">
+
+              <div class="package-topline">
+                <span>Up to 50 guests</span>
+                <span>01</span>
+              </div>
+
+              <h3>The Waypoint</h3>
+
+              <p class="package-subtitle">
+                For intimate gatherings & thoughtful celebrations
+              </p>
+
+              <div class="package-divider"></div>
+
+              <ul class="package-list">
+                <li>Professional bartender</li>
+                <li>Custom beverage consultation</li>
+                <li>Signature cocktail or mocktail</li>
+                <li>Bar tools & equipment</li>
+                <li>Fresh garnishes</li>
+                <li>Setup & breakdown</li>
+              </ul>
+
+            </div>
+
+          </article>
+
+
+          <!-- SCENIC ROUTE -->
+          <article class="package-card package-scenic featured">
+
+            <div class="package-marker">
+              <span>02</span>
+            </div>
+
+            <div class="package-card-inner">
+
+              <div class="package-topline">
+                <span>Up to 150 guests</span>
+                <span>02</span>
+              </div>
+
+              <div class="package-badge">
+                Most Popular
+              </div>
+
+              <h3>The Scenic Route</h3>
+
+              <p class="package-subtitle">
+                For weddings & meaningful celebrations
+              </p>
+
+              <div class="package-divider"></div>
+
+              <ul class="package-list">
+                <li>Lead bartender + support staff</li>
+                <li>Full beverage consultation</li>
+                <li>Custom cocktail & mocktail menu</li>
+                <li>Shopping guidance</li>
+                <li>Bar tools & equipment</li>
+                <li>Fresh garnishes</li>
+                <li>Setup & breakdown</li>
+              </ul>
+
+            </div>
+
+          </article>
+
+
+          <!-- DESTINATION -->
+          <article class="package-card package-destination">
+
+            <div class="package-marker">
+              <span>03</span>
+            </div>
+
+            <div class="package-card-inner">
+
+              <div class="package-topline">
+                <span>150+ guests</span>
+                <span>03</span>
+              </div>
+
+              <h3>The Destination</h3>
+
+              <p class="package-subtitle">
+                The fully curated beverage experience
+              </p>
+
+              <div class="package-divider"></div>
+
+              <ul class="package-list">
+                <li>Full bar team</li>
+                <li>Comprehensive beverage consultation</li>
+                <li>Unlimited custom menu design</li>
+                <li>Complete shopping guidance</li>
+                <li>Premium bar tools & equipment</li>
+                <li>Specialty garnish bar</li>
+                <li>Extended service hours</li>
+                <li>Setup & breakdown</li>
+              </ul>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <div class="package-note reveal">
+          <span class="package-note-mark">+</span>
+
+          <p>
+            Guest counts are guidelines rather than rigid limits.
+            Staffing and service structure are customized to your event
+            requirements.
+          </p>
+        </div>
+
       </div>
+
     </section>
+
+
+    <!-- =====================================================
+         EVERY EVENT INCLUDES
+         ===================================================== -->
+    <section class="section section-deep included-section">
+
+      <div class="container">
+
+        <div class="section-heading centered reveal">
+
+          <span class="kicker">Every Event Includes</span>
+
+          <h2 class="section-title-accent">
+            Everything behind the bar.
+          </h2>
+
+          <p>
+            From planning to breakdown, we take care of the details that
+            allow you to focus on your guests.
+          </p>
+
+        </div>
+
+
+        <div class="included-grid reveal-stagger">
+
+          <button class="included-card" type="button">
+            <span class="included-number">01</span>
+
+            <span class="included-title">
+              Professional Bartending Service
+            </span>
+
+            <span class="included-description">
+              Experienced, personable bartenders trained in craft cocktails,
+              mocktails, and guest-first hospitality.
+            </span>
+
+            <span class="included-arrow" aria-hidden="true">↗</span>
+          </button>
+
+
+          <button class="included-card" type="button">
+            <span class="included-number">02</span>
+
+            <span class="included-title">
+              Custom Beverage Consultation
+            </span>
+
+            <span class="included-description">
+              A collaborative planning session shaped around your event
+              style, season, guest preferences, and personal taste.
+            </span>
+
+            <span class="included-arrow" aria-hidden="true">↗</span>
+          </button>
+
+
+          <button class="included-card" type="button">
+            <span class="included-number">03</span>
+
+            <span class="included-title">
+              Signature Cocktail & Mocktail Design
+            </span>
+
+            <span class="included-description">
+              Original recipes created for your celebration, from ingredient
+              selection to naming and presentation.
+            </span>
+
+            <span class="included-arrow" aria-hidden="true">↗</span>
+          </button>
+
+
+          <button class="included-card" type="button">
+            <span class="included-number">04</span>
+
+            <span class="included-title">
+              Personalized Shopping Guidance
+            </span>
+
+            <span class="included-description">
+              A detailed purchasing list tailored to your guest count and
+              menu so you know exactly what to buy and how much.
+            </span>
+
+            <span class="included-arrow" aria-hidden="true">↗</span>
+          </button>
+
+
+          <button class="included-card" type="button">
+            <span class="included-number">05</span>
+
+            <span class="included-title">
+              Bar Tools & Equipment
+            </span>
+
+            <span class="included-description">
+              Professional-grade barware, shakers, jiggers, strainers,
+              ice tools, and service essentials.
+            </span>
+
+            <span class="included-arrow" aria-hidden="true">↗</span>
+          </button>
+
+
+          <button class="included-card" type="button">
+            <span class="included-number">06</span>
+
+            <span class="included-title">
+              Fresh Garnishes & Ingredients
+            </span>
+
+            <span class="included-description">
+              Hand-selected herbs, citrus, seasonal fruit, house-made
+              syrups, and specialty ingredients prepared fresh for your event.
+            </span>
+
+            <span class="included-arrow" aria-hidden="true">↗</span>
+          </button>
+
+
+          <button class="included-card" type="button">
+            <span class="included-number">07</span>
+
+            <span class="included-title">
+              Full Setup & Breakdown
+            </span>
+
+            <span class="included-description">
+              We arrive early, build your styled bar, and break down
+              completely when service is finished.
+            </span>
+
+            <span class="included-arrow" aria-hidden="true">↗</span>
+          </button>
+
+
+          <button class="included-card" type="button">
+            <span class="included-number">08</span>
+
+            <span class="included-title">
+              Professional Hospitality
+            </span>
+
+            <span class="included-description">
+              Attentive, gracious service from start to finish. Every guest
+              is welcomed, served with care, and made to feel celebrated.
+            </span>
+
+            <span class="included-arrow" aria-hidden="true">↗</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         EVENT EXPERIENCES
+         ===================================================== -->
+    <section class="section experience-section">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <span class="kicker">Event Experiences</span>
+
+          <h2 class="section-title-accent">
+            Built for the moments that matter.
+          </h2>
+
+          <p>
+            Whether you're planning a wedding, gathering colleagues,
+            celebrating at home, or creating an alcohol-free experience,
+            we tailor the beverage program to the occasion.
+          </p>
+
+        </div>
+
+
+        <div class="experience-shell reveal">
+
+          <nav
+            class="experience-tabs"
+            aria-label="Event experience categories"
+          >
+
+            <button
+              class="experience-tab is-active"
+              type="button"
+              data-experience="weddings"
+              aria-selected="true"
+            >
+              <span class="experience-tab-number">01</span>
+              <span>Weddings</span>
+            </button>
+
+            <button
+              class="experience-tab"
+              type="button"
+              data-experience="corporate"
+              aria-selected="false"
+            >
+              <span class="experience-tab-number">02</span>
+              <span>Corporate & Community</span>
+            </button>
+
+            <button
+              class="experience-tab"
+              type="button"
+              data-experience="private"
+              aria-selected="false"
+            >
+              <span class="experience-tab-number">03</span>
+              <span>Private Events</span>
+            </button>
+
+            <button
+              class="experience-tab"
+              type="button"
+              data-experience="mocktails"
+              aria-selected="false"
+            >
+              <span class="experience-tab-number">04</span>
+              <span>The Mocktail Experience</span>
+            </button>
+
+          </nav>
+
+
+          <div class="experience-content">
+
+
+            <!-- WEDDINGS -->
+            <article
+              class="experience-panel is-active"
+              data-panel="weddings"
+            >
+
+              <div class="experience-copy">
+
+                <span class="experience-eyebrow">
+                  The Wedding Experience
+                </span>
+
+                <h3>
+                  Your wedding is more than an event —
+                  <em>it's a celebration of your story.</em>
+                </h3>
+
+                <p>
+                  Every beverage program is thoughtfully designed to reflect
+                  the personalities, preferences, and vision of each couple.
+                </p>
+
+                <p>
+                  From signature cocktails inspired by favorite memories to
+                  elevated mocktails that ensure every guest feels included,
+                  every detail is curated with intention.
+                </p>
+
+              </div>
+
+              <div class="experience-services">
+
+                <span>Services May Include</span>
+
+                <ul>
+                  <li>Signature Couple Cocktails</li>
+                  <li>Custom Mocktail Selections</li>
+                  <li>Personalized Drink Menus</li>
+                  <li>Cocktail Hour Service</li>
+                  <li>Specialty Garnishes & Presentation</li>
+                  <li>Beverage Consultation & Planning</li>
+                </ul>
+
+              </div>
+
+            </article>
+
+
+            <!-- CORPORATE -->
+            <article
+              class="experience-panel"
+              data-panel="corporate"
+              hidden
+            >
+
+              <div class="experience-copy">
+
+                <span class="experience-eyebrow">
+                  Corporate & Community Events
+                </span>
+
+                <h3>
+                  Professional service with
+                  <em>something worth gathering around.</em>
+                </h3>
+
+                <p>
+                  The Traveling Tavern brings the same level of craft and
+                  care to corporate gatherings, community celebrations, and
+                  organizational events.
+                </p>
+
+                <p>
+                  From company happy hours and team celebrations to fundraisers,
+                  open houses, and milestone events, every detail is tailored
+                  to your audience, your brand, and your vision.
+                </p>
+
+              </div>
+
+              <div class="experience-services">
+
+                <span>Corporate & Community Services</span>
+
+                <ul>
+                  <li>Company Happy Hours</li>
+                  <li>Team Celebrations</li>
+                  <li>Client Appreciation Events</li>
+                  <li>Open Houses</li>
+                  <li>Fundraisers & Galas</li>
+                  <li>Community Festivals</li>
+                  <li>Nonprofit Events</li>
+                  <li>Milestone Celebrations</li>
+                </ul>
+
+              </div>
+
+            </article>
+
+
+            <!-- PRIVATE -->
+            <article
+              class="experience-panel"
+              data-panel="private"
+              hidden
+            >
+
+              <div class="experience-copy">
+
+                <span class="experience-eyebrow">
+                  Private Event Services
+                </span>
+
+                <h3>
+                  Gather. Celebrate.
+                  <em>Connect.</em>
+                </h3>
+
+                <p>
+                  Some of life's most meaningful moments happen outside of a
+                  ballroom.
+                </p>
+
+                <p>
+                  Whether you're hosting a birthday celebration, anniversary
+                  dinner, engagement party, holiday gathering, or intimate
+                  evening with friends, we create beverage experiences
+                  designed to bring people together.
+                </p>
+
+                <p>
+                  Because great conversations often begin with a great drink.
+                </p>
+
+              </div>
+
+              <div class="experience-services">
+
+                <span>Private Event Services</span>
+
+                <ul>
+                  <li>Birthday Celebrations</li>
+                  <li>Anniversary Parties</li>
+                  <li>Engagement Parties</li>
+                  <li>Rehearsal Dinners</li>
+                  <li>Holiday Gatherings</li>
+                  <li>Housewarming Parties</li>
+                  <li>Family Celebrations</li>
+                  <li>Backyard Events</li>
+                </ul>
+
+              </div>
+
+            </article>
+
+
+            <!-- MOCKTAILS -->
+            <article
+              class="experience-panel"
+              data-panel="mocktails"
+              hidden
+            >
+
+              <div class="experience-copy">
+
+                <span class="experience-eyebrow">
+                  The Mocktail Experience
+                </span>
+
+                <h3>
+                  Every guest deserves to feel
+                  <em>included.</em>
+                </h3>
+
+                <p>
+                  At The Traveling Tavern, mocktails are more than a
+                  substitute. They are thoughtfully crafted beverages designed
+                  to stand on their own.
+                </p>
+
+                <p>
+                  Fresh ingredients, house-made syrups, seasonal fruit, herbs,
+                  and elevated presentation give every guest something
+                  beautiful in hand.
+                </p>
+
+              </div>
+
+              <div class="experience-services">
+
+                <span>Featured Offerings</span>
+
+                <ul>
+                  <li>Signature Mocktail Collections</li>
+                  <li>Custom Mocktail Design</li>
+                  <li>Seasonal Beverage Menus</li>
+                  <li>Corporate Wellness Events</li>
+                  <li>Family-Friendly Celebrations</li>
+                  <li>Alcohol-Free Gatherings</li>
+                </ul>
+
+              </div>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         ADD-ONS
+         ===================================================== -->
+    <section class="section section-wine addons-section">
+
+      <div class="container">
+
+        <div class="addons-layout">
+
+          <div class="addons-copy reveal-left">
+
+            <span class="kicker">Additional Experiences</span>
+
+            <h2>
+              Make the experience
+              <em>entirely your own.</em>
+            </h2>
+
+            <p>
+              Start with a core service and build from there. Add-ons allow
+              us to refine the experience around your guest count, timeline,
+              menu, and vision.
+            </p>
+
+          </div>
+
+
+          <div class="addons-list reveal-stagger">
+
+            <div class="addon-item">
+              <span>01</span>
+              <strong>Custom Menu Design</strong>
+            </div>
+
+            <div class="addon-item">
+              <span>02</span>
+              <strong>Additional Bartenders</strong>
+            </div>
+
+            <div class="addon-item">
+              <span>03</span>
+              <strong>Extended Service Hours</strong>
+            </div>
+
+            <div class="addon-item">
+              <span>04</span>
+              <strong>Non-Alcoholic Packages</strong>
+            </div>
+
+            <div class="addon-item">
+              <span>05</span>
+              <strong>Specialty Garnish Bars</strong>
+            </div>
+
+            <div class="addon-item">
+              <span>06</span>
+              <strong>Day-of Coordination Support</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SERVICE PHILOSOPHY
+         ===================================================== -->
+    <section class="section services-philosophy">
+
+      <div class="container">
+
+        <div class="feature-block philosophy-block reveal">
+
+          <span class="kicker">Our Standard</span>
+
+          <h2>
+            Everything you need for a seamless,
+            <em>elevated beverage experience.</em>
+          </h2>
+
+          <p>
+            We believe professional beverage service should make an event
+            feel easier, not more complicated. That's why our process brings
+            together planning, preparation, presentation, and hospitality
+            under one experience.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CTA
+         ===================================================== -->
+    <section class="section">
+
+      <div class="container">
+
+        <div class="cta-panel reveal">
+
+          <div>
+
+            <span class="kicker">Let's Plan It</span>
+
+            <h2>
+              Not sure which service fits?
+            </h2>
+
+            <p>
+              Tell us about your event, and we'll help determine the service
+              structure, staffing, and beverage experience that makes the
+              most sense.
+            </p>
+
+          </div>
+
+          <a class="btn btn-accent" href="./contact/index.html">
+            Start Planning
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
 
   <div id="site-footer"></div>
+
 </body>
 </html>
