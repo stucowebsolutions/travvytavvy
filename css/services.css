@@ -189,6 +189,9 @@
 
   min-width:0;
 
+  display:flex;
+  flex-direction:column;
+
   transition:
     transform var(--duration-standard) var(--ease-standard),
     filter var(--duration-standard) ease;
