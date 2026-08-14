@@ -20,6 +20,9 @@
   --text-dark: #181818;
   --muted: #aaa49a;
   --muted-dark: #625d55;
+  --font-display:"Cormorant Garamond", serif;
+  --font-body:"Inter", sans-serif;
+  --font-script:"Mea Culpa", cursive;
   /* -------------------------------------------------------
      Brand Accents
      ------------------------------------------------------- */
