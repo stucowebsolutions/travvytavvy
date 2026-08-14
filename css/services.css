@@ -195,6 +195,8 @@
 }
 
 .package-card-inner{
+  position:relative;
+
   height:100%;
 
   padding:32px;
@@ -352,12 +354,12 @@
 .package-badge{
   position:absolute;
 
-  top:16px;
-  right:16px;
+  top:24px;
+  right:24px;
 
   padding:6px 10px;
 
-  border:1px solid var(--border-gold);
+  border:1px solid rgba(199,154,69,.45);
 
   background:rgba(199,154,69,.08);
 
@@ -367,6 +369,8 @@
   font-weight:800;
   letter-spacing:.10em;
   text-transform:uppercase;
+
+  white-space:nowrap;
 }
 
 .package-note{
