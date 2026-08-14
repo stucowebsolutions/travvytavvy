@@ -159,6 +159,11 @@
 .founder-quote-card p{
   color:var(--text-dark);
 }
+.founder-card-text{
+  color:var(--text-dark);
+  font-family:var(--font-display);
+  font-size:1.45rem;
+}
 .founder-quote-card > p:first-child{
   font-family:var(--font-display);
   font-size:1.45rem;
